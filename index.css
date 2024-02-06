@@ -39,7 +39,7 @@
     background: #fff;
     border-radius: 9999px;
     flex: 1;
-    margin: 0 40px;
+    margin: 0 20px;
     text-align: center;
     font-size: 16px;
     font-weight: 400;
@@ -94,11 +94,9 @@
 .block-1 {
     background-color: rgb(250, 250, 250);
     width: 89%;
-    margin-left: 70px;
+    margin-left: 5%;
     margin-top: 40px;
-    padding-left: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px;
 }
 
 .top .key,
@@ -108,23 +106,25 @@
 }
 
 .row .cont {
-    max-width: 1200px;
-    height: 100%;
+    max-width: 90%;
     margin: 0 auto;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
 
 .cont img {
-    margin-bottom: 80px;
+    width: 100%;
+    margin-bottom: 20px;
 }
 
 .context {
-    width: 600px;
-    margin-right: 20px;
-    padding-left: 20px;
-    margin-bottom: 100px;
+    width: 90%;
+    margin: 0 auto;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 50px;
 }
 
 .context .key {
@@ -135,14 +135,14 @@
 }
 
 .context .vals {
-    width: 500px;
+    width: 100%;
     font-family: SourceHanSansSC-Regular, SourceHanSansSC-Regular;
     padding-top: 5px;
 }
 
 .context button {
     margin-top: 20px;
-    width: 150px;
+    width: 100%;
     border: none;
     height: 45px;
     background: #e16260;
@@ -153,21 +153,19 @@
 }
 
 .img-row {
-    height: 100%;
+    width: 90%;
     margin: 0 auto;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
 
 video {
-    width: 90%;
-    margin-left: 80px;
-    height: 100%;
-    object-fit: cover;
+    width: 100%;
+    margin: 20px 0;
+    height: auto;
     border-radius: 20px;
-    margin-top: 20px;
-    margin-bottom: 20px;
 }
 
 .block-2 {
@@ -201,7 +199,7 @@ video {
 
 .block-2 .desc {
     margin: 21px auto 0;
-    max-width: 1200px;
+    max-width: 90%;
     font-size: 14px;
     font-family: SourceHanSansSC-Regular, SourceHanSansSC-Regular;
     font-weight: 400;
@@ -222,25 +220,28 @@ video {
 }
 
 .show .banner .content[data-v-68c376b4] {
-    max-width: 1200px;
+    max-width: 90%;
     margin: 0 auto;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
 
 .block-3 {
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: 90%;
 }
 
 .block-3 .row-1 {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 80px;
+    margin-top: 20px;
 }
 
 .block-3 .row-1 .item2 {
+    width: 48%;
     margin-top: 15px;
 }
 
@@ -253,26 +254,29 @@ video {
 
 .block-3 .row-1 .item2 img {
     width: 100%;
-    height: 199px;
+    height: auto;
     margin-top: 14px;
 }
 
 .block-3 .row-2 {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 36px;
+    margin-top: 20px;
 }
 
 .block-4 .row-1 {
-    max-width: 1200px;
-    margin: 56px auto 0;
+    max-width: 90%;
+    margin: 20px auto 0;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
 
 .block-4 .row {
-    margin-top: 37px;
+    width: 100%;
+    margin-top: 20px;
 }
 
 .block-4 {
@@ -283,6 +287,8 @@ video {
 .block-4 .row,
 .block-4 .row-1 {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
 }
@@ -302,43 +308,42 @@ video {
 }
 
 .block-4 .desc {
-    max-width: 300px;
+    max-width: 90%;
     color: #777;
+    margin-top: 10px;
 }
 
 .block-4 .row img,
 .row-1 img {
-    margin-left: auto;
-    margin-right: auto;
-    width: auto;
+    width: 100%;
     height: auto;
-    max-width: 300px;
-    max-height: 300px;
+    margin-bottom: 20px;
 }
 
 .block-4 .row img {
-    margin-left: 500px;
-    margin-right: auto;
-    margin-bottom: 200px;
-    width: auto;
-    height: auto;
-    max-width: 400px;
-    max-height: 400px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 20px;
+    max-width: 100%;
 }
 
 .block3 .img-row {
+    width: 90%;
+    margin: 0 auto;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     align-items: center;
-    margin-top: 39px;
+    margin-top: 20px;
 }
 
 .block3 {
     margin: 0 auto;
-    max-width: 1200px;
+    max-width: 90%;
 }
 
 .block3 button {
-    width: 115px;
+    width: 100%;
     height: 42px;
     line-height: 42px;
     text-align: center;
@@ -348,13 +353,13 @@ video {
     font-weight: 400;
     color: #dd3f3c;
     display: block;
-    margin: 40px auto 50px;
+    margin: 20px auto 30px;
 }
 
 .block3 .img-row img {
-    width: 280px;
-    height: 330px;
-    margin-right: 50px;
+    width: 48%;
+    height: auto;
+    margin-bottom: 20px;
 }
 
 .contact-popup {
@@ -371,14 +376,15 @@ video {
 }
 
 .contact-popup .header-card {
-    width: 464px;
+    width: 90%;
+    max-width: 464px;
     height: 434px;
     background: rgba(0, 0, 0, .7);
     padding: 40px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-left: auto;
+    margin: 0 auto;
     color: #fff;
 }
 
@@ -457,4 +463,70 @@ video {
 @keyframes fadeIn {
     from {opacity: 0;}
     to {opacity: 1;}
+}
+
+@media only screen and (min-width: 768px) {
+    .header .content .tab {
+        margin: 0 40px;
+    }
+
+    .block-1 {
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    .context {
+        width: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    .img-row {
+        width: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    .block-2 .desc,
+    .block-3 .row-1 .item2,
+    .block-3 .row-2,
+    .block-4 .row-1,
+    .block3 .img-row {
+        max-width: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .header .content .tab {
+        margin: 0 80px;
+    }
+
+    .block-1 {
+        width: 60%;
+        margin-left: 20%;
+    }
+
+    .context {
+        width: 60%;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    .img-row {
+        width: 60%;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    .block-2 .desc,
+    .block-3 .row-1 .item2,
+    .block-3 .row-2,
+    .block-4 .row-1,
+    .block3 .img-row {
+        max-width: 60%;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
 }
